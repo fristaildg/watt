@@ -18,7 +18,7 @@ const NewEntry = () => {
     <>
       <Button label='Add Entry' onClick={showModal} />
       <EntryModal modalProps={modalProps} onSubmitValues={handleSubmitValues} />
-      <Alert {...alertProps} message='The task was added succesfully!' isClearable intent='success' isPermanent />
+      <Alert {...alertProps} message='The task was added succesfully!' intent='success' />
     </>
   )
 }
