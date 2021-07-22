@@ -1,4 +1,3 @@
-import React from 'react'
 import { useModal, Button, useAlert, Alert } from '@spark-digital/ignition'
 import EntryModal from '../EntryModal'
 import { addTodo, Todo } from '../../slices/todos'
