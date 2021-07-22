@@ -2,11 +2,11 @@
   "name": "watt-app",
   "version": "0.1.0",
   "private": true,
-  "bundlewatch" : {
+  "bundlewatch": {
     "files": [
       {
-          "path": "build/static/js/*.chunk.js",
-          "maxSize": "1000kB"
+        "path": "build/static/js/*.chunk.js",
+        "maxSize": "1000kB"
       }
     ]
   },
@@ -28,6 +28,7 @@
     "react-scripts": "4.0.2",
     "redux": "^4.0.5",
     "styled-components": "^5.2.1",
+    "styled-tools": "^1.7.2",
     "typescript": "^4.1.2",
     "use-harperdb": "^0.1.2",
     "web-vitals": "^1.0.1"
