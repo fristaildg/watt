@@ -8,7 +8,10 @@
         "path": "build/static/js/*.chunk.js",
         "maxSize": "1000kB"
       }
-    ]
+    ],
+    "ci": {
+      "trackBranches": ["master"]
+    }
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.34",
