@@ -101,12 +101,32 @@ const EntryModal = ({modalProps, values, onSubmitValues}: EntryModalProps) => {
   }
 
   return (
-    <Modal preventCloseOnAction closeOnClickOutside primaryAction='Add' onPrimaryClick={handlePrimaryClick} {...modalProps}>
+    <Modal
+      preventCloseOnAction
+      closeOnClickOutside
+      primaryAction='Add'
+      onPrimaryClick={handlePrimaryClick}
+      {...modalProps}
+    >
       <Heading level={2}>New Entry</Heading>
       <Text>Add a title and a description</Text>
-      <Select label='Importance' options={importanceOptions} onChange={setImportance} {...validationProps('importance')} />
-      <TextInput label='Title' value={state?.title} onChange={setTitle} {...validationProps('title')} />
-      <TextareaInput label='Description' value={state?.description} onChange={setDescription} />
+      <Select
+        label='Importance'
+        options={importanceOptions}
+        onChange={setImportance}
+        {...validationProps('importance')}
+      />
+      <TextInput
+        label='Title'
+        value={state?.title}
+        onChange={setTitle}
+        {...validationProps('title')}
+      />
+      <TextareaInput
+        label='Description'
+        value={state?.description}
+        onChange={setDescription}
+      />
     </Modal>
   )
 }
