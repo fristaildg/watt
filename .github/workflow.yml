@@ -1,9 +1,9 @@
 name: "Bundlewatch GitHub Action - on Tracked Branches Push"
 
 on:
-  push:
-    branches:
-      - master
+  pull_request:
+    types: [opened, synchronize]
+
 
 jobs:
   bundlewatch:
