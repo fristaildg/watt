@@ -24,4 +24,4 @@ jobs:
       - name: Bundlesize
         run: npm run bundle
         env:
-          BUNDLEWATCH_GITHUB_TOKEN: ${{ secrets.BUNDLEWATCH_GITHUB_TOKEN}}
+          BUNDLESIZE_GITHUB_TOKEN: ${{ secrets.BUNDLESIZE_GITHUB_TOKEN}}
