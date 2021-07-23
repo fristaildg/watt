@@ -3,5 +3,8 @@ checks:
     options:
       gzip: false
       files:
-        - path: "./build/static/js/*.chunk.js"
-        - path: "./build/static/css/*.chunk.css"
+        - path: "./src/**/*.js"
+
+settings:
+  branches: 
+    - master
