@@ -52,7 +52,7 @@
   },
   "devDependencies": {
     "@types/react-redux": "^7.1.16",
-    "bundlesize": "^0.18.1",
+    "bundlesize2": "0.0.28",
     "bundlewatch": "^0.3.2"
   }
 }
