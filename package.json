@@ -54,8 +54,6 @@
   "devDependencies": {
     "@codechecks/build-size-watcher": "^0.1.0",
     "@codechecks/client": "^0.1.11",
-    "@types/react-redux": "^7.1.16",
-    "bundlesize2": "0.0.28",
-    "bundlewatch": "^0.3.2"
+    "@types/react-redux": "^7.1.16"
   }
 }

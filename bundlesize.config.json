@@ -1,7 +1,0 @@
-{
-  "files": [
-    {
-      "path": "build/static/js/*.chunk.js"
-    }
-  ]
-}
