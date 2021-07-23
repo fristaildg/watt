@@ -24,4 +24,7 @@ jobs:
       - name: Bundlesize
         run: npm run bundle
         env:
-          BUNDLESIZE_GITHUB_TOKEN: ${{ secrets.BUNDLESIZE_GITHUB_TOKEN}}
+          CI_REPO_OWNER: fristaildg
+          CI_REPO_NAME: watt
+          CI_COMMIT_MESSAGE: ${{ github.event.head_commit.message }}
+          CI_COMMIT_SHA: ${{ github.sha }}
