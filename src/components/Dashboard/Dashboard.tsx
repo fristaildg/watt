@@ -43,7 +43,7 @@ const Dashboard = () => {
         </Accordion>
       </CenteredContainer>
       <EntryModal modalProps={modalProps} values={todoValues} onSubmitValues={handleSubmitValues} />
-      <Alert {...editAlertProps} message='The task was updated right now by a person' intent='success' />
+      <Alert {...editAlertProps} message='The task was updated right nowwwwwww by a person' intent='success' />
       <Alert {...deleteAlertProps} message='The task was deleted' intent='info' />
     </>
   )
