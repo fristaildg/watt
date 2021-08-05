@@ -23,11 +23,11 @@ jobs:
     - name: Analyze
       run: npm run analyze
 
-    - name: Upload base analyze.json
+    - name: Upload base stats.json
       uses: actions/upload-artifact@v2
       with:
         name: base
-        path: ./analyze.json
+        path: ./stats.json
         retention-days: 1
   
   build-pr:
@@ -46,11 +46,11 @@ jobs:
     - name: Analyze
       run: npm run analyze
     
-    - name: Upload base analyze.json
+    - name: Upload base stats.json
       uses: actions/upload-artifact@v2
       with:
         name: pr
-        path: ./analyze.json
+        path: ./stats.json
         retention-days: 1
   
   report:
@@ -78,8 +78,8 @@ jobs:
       id: get-diff
       uses: NejcZdovc/bundle-size-diff@v1
       with:
-        base_path: './base/analyze.json'
-        pr_path: './pr/analyze.json'
+        base_path: './base/stats.json'
+        pr_path: './pr/stats.json'
 
     - name: Comment
       uses: NejcZdovc/comment-pr@v1.1.1
