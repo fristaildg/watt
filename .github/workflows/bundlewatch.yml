@@ -78,8 +78,8 @@ jobs:
       id: get-diff
       uses: NejcZdovc/bundle-size-diff@v1
       with:
-        base_path: '/home/runner/work/watt/watt/base/analyze.json'
-        pr_path: '/home/runner/work/watt/watt/pr/analyze.json'
+        base_path: './base/analyze.json'
+        pr_path: './pr/analyze.json'
 
     - name: Comment
       uses: NejcZdovc/comment-pr@v1.1.1
