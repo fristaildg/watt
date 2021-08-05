@@ -66,13 +66,13 @@ jobs:
       uses: actions/download-artifact@v2
       with:
         name: base
-        path: ./base
+        path: base
 
     - name: Download PR stats
       uses: actions/download-artifact@v2
       with:
         name: pr
-        path: ./pr
+        path: pr
 
     - name: Get diff
       id: get-diff
