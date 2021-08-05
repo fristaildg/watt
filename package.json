@@ -20,6 +20,7 @@
     "react-redux": "^7.2.2",
     "react-scripts": "4.0.2",
     "redux": "^4.0.5",
+    "source-map-explorer": "^2.5.2",
     "styled-components": "^5.2.1",
     "styled-tools": "^1.7.2",
     "typescript": "^4.1.2",
@@ -27,6 +28,7 @@
     "web-vitals": "^1.0.1"
   },
   "scripts": {
+    "analyze": "source-map-explorer 'build/static/js/*.js' --json analyze.json",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -54,8 +56,6 @@
   "devDependencies": {
     "@codechecks/build-size-watcher": "^0.1.0",
     "@codechecks/client": "^0.1.11",
-    "@types/react-redux": "^7.1.16",
-    "bundlesize2": "0.0.28",
-    "bundlewatch": "^0.3.2"
+    "@types/react-redux": "^7.1.16"
   }
 }

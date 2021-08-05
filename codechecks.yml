@@ -3,6 +3,8 @@ checks:
     options:
       gzip: false
       files:
-        - path: "./build/static/js/*.js"
-        - path: "./build/static/css/*.css"
-        - path: "./build/static/media/*"
+        - path: "./src/**/*.js"
+
+settings:
+  branches: 
+    - master
