@@ -4,24 +4,25 @@ on:
   pull_request:
     types: [opened, synchronize]
 
-
 jobs:
-  bundlewatch:
+  build-base:
+    name: Build base
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-      - name: Set up Node.js
-        uses: actions/setup-node@v1
-        with:
-          node-version: 14.x
+    - name: Checkout
+      uses: actions/checkout@v2
+      with:
+        ref: ${{ github.base_ref }}
 
-      - name: Install dependencies
-        run: npm install
+    - name: Install dependencies
+      run: npm ci
 
-      - name: Build
-        run: npm run build
+    - name: Build
+      run: npm run build
 
-      - name: Bundlesize
-        run: npm run bundle
-        env:
-          CC_SECRET: ${{ secrets.CC_SECRET }}
+    - name: Upload base stats.json
+      uses: actions/upload-artifact@v2
+      with:
+        name: base
+        path: ./analyze.json
+        retention-days: 1

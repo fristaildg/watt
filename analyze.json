@@ -1,0 +1,1196 @@
+{
+  "results": [
+    {
+      "bundleName": "build/static/js/2.cbdf05ba.chunk.js",
+      "totalBytes": 1622480,
+      "mappedBytes": 1622257,
+      "unmappedBytes": 177,
+      "eolBytes": 2,
+      "sourceMapCommentBytes": 44,
+      "files": {
+        "../node_modules/react/index.js": {
+          "size": 17
+        },
+        "[no source]": {
+          "size": 12499
+        },
+        "../node_modules/@babel/runtime/helpers/esm/extends.js": {
+          "size": 242
+        },
+        "../node_modules/react/jsx-runtime.js": {
+          "size": 17
+        },
+        "../node_modules/prop-types/index.js": {
+          "size": 19
+        },
+        "../node_modules/@spark-digital/ignition/lib/index.js": {
+          "size": 391215
+        },
+        "../node_modules/@babel/runtime/helpers/esm/getPrototypeOf.js": {
+          "size": 164
+        },
+        "../node_modules/@babel/runtime/helpers/esm/defineProperty.js": {
+          "size": 155
+        },
+        "../node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/esm/defineProperty.js": {
+          "size": 120
+        },
+        "../node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/esm/objectSpread2.js": {
+          "size": 575
+        },
+        "../node_modules/react-dom/index.js": {
+          "size": 223
+        },
+        "../node_modules/react-redux/es/components/Context.js": {
+          "size": 28
+        },
+        "../node_modules/react-redux/es/utils/batch.js": {
+          "size": 34
+        },
+        "../node_modules/react-redux/es/utils/Subscription.js": {
+          "size": 1229
+        },
+        "../node_modules/react-redux/es/utils/useIsomorphicLayoutEffect.js": {
+          "size": 150
+        },
+        "../node_modules/react-redux/es/components/Provider.js": {
+          "size": 457
+        },
+        "../node_modules/react-redux/es/hooks/useReduxContext.js": {
+          "size": 44
+        },
+        "../node_modules/react-redux/es/hooks/useStore.js": {
+          "size": 135
+        },
+        "../node_modules/react-redux/es/hooks/useDispatch.js": {
+          "size": 100
+        },
+        "../node_modules/react-redux/es/hooks/useSelector.js": {
+          "size": 1043
+        },
+        "../node_modules/react-redux/es/index.js": {
+          "size": 26
+        },
+        "../node_modules/@babel/runtime/helpers/esm/objectWithoutPropertiesLoose.js": {
+          "size": 169
+        },
+        "../node_modules/@babel/runtime/helpers/esm/setPrototypeOf.js": {
+          "size": 127
+        },
+        "../../src/constants.js": {
+          "size": 5077
+        },
+        "../../src/sheet/Tag.js": {
+          "size": 484
+        },
+        "../../src/sheet/Sheet.js": {
+          "size": 1812
+        },
+        "../../src/utils/isStaticRules.js": {
+          "size": 3055
+        },
+        "../../src/models/Keyframes.js": {
+          "size": 4379
+        },
+        "../../src/models/StyledComponent.js": {
+          "size": 2227
+        },
+        "../../src/models/GlobalStyle.js": {
+          "size": 1513
+        },
+        "../../src/models/ServerStyleSheet.js": {
+          "size": 629
+        },
+        "../node_modules/@babel/runtime/helpers/esm/assertThisInitialized.js": {
+          "size": 158
+        },
+        "../node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/esm/objectWithoutProperties.js": {
+          "size": 240
+        },
+        "../node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/esm/objectWithoutPropertiesLoose.js": {
+          "size": 132
+        },
+        "../node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/esm/taggedTemplateLiteral.js": {
+          "size": 149
+        },
+        "../node_modules/hoist-non-react-statics/dist/hoist-non-react-statics.cjs.js": {
+          "size": 952
+        },
+        "../node_modules/@fortawesome/fontawesome-svg-core/index.es.js": {
+          "size": 40120
+        },
+        "../node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/esm/arrayLikeToArray.js": {
+          "size": 141
+        },
+        "../node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/esm/slicedToArray.js": {
+          "size": 58
+        },
+        "../node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/esm/arrayWithHoles.js": {
+          "size": 41
+        },
+        "../node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/esm/iterableToArrayLimit.js": {
+          "size": 299
+        },
+        "../node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/esm/nonIterableRest.js": {
+          "size": 172
+        },
+        "../node_modules/@emotion/stylis/dist/stylis.browser.esm.js": {
+          "size": 8209
+        },
+        "../node_modules/@emotion/unitless/dist/unitless.browser.esm.js": {
+          "size": 645
+        },
+        "../node_modules/@emotion/is-prop-valid/dist/is-prop-valid.browser.esm.js": {
+          "size": 4143
+        },
+        "../node_modules/@emotion/memoize/dist/memoize.browser.esm.js": {
+          "size": 86
+        },
+        "../node_modules/@babel/runtime/helpers/esm/inheritsLoose.js": {
+          "size": 146
+        },
+        "../node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/esm/unsupportedIterableToArray.js": {
+          "size": 355
+        },
+        "../../src/utils/errors.ts": {
+          "size": 254
+        },
+        "../../src/utils/common.ts": {
+          "size": 1970
+        },
+        "../../src/utils/plugins.ts": {
+          "size": 72
+        },
+        "../../src/core/scope.ts": {
+          "size": 261
+        },
+        "../../src/core/finalize.ts": {
+          "size": 810
+        },
+        "../../src/core/proxy.ts": {
+          "size": 1813
+        },
+        "../../src/core/immerClass.ts": {
+          "size": 1885
+        },
+        "../../src/core/current.ts": {
+          "size": 346
+        },
+        "../../src/plugins/es5.ts": {
+          "size": 1692
+        },
+        "../../src/immer.ts": {
+          "size": 191
+        },
+        "../../src/utils/env.ts": {
+          "size": 403
+        },
+        "../node_modules/reselect/es/index.js": {
+          "size": 736
+        },
+        "../node_modules/@babel/runtime/helpers/esm/objectSpread2.js": {
+          "size": 590
+        },
+        "../node_modules/redux/es/redux.js": {
+          "size": 3158
+        },
+        "../node_modules/redux-thunk/es/index.js": {
+          "size": 193
+        },
+        "../node_modules/@reduxjs/toolkit/dist/redux-toolkit.esm.js": {
+          "size": 4928
+        },
+        "../node_modules/object-assign/index.js": {
+          "size": 924
+        },
+        "../node_modules/webpack/buildin/global.js": {
+          "size": 132
+        },
+        "../node_modules/react-modal/lib/helpers/safeHTMLElement.js": {
+          "size": 345
+        },
+        "../node_modules/exenv/index.js": {
+          "size": 350
+        },
+        "../node_modules/@babel/runtime/helpers/typeof.js": {
+          "size": 427
+        },
+        "../node_modules/react-input-autosize/lib/AutosizeInput.js": {
+          "size": 5234
+        },
+        "../node_modules/react-is/index.js": {
+          "size": 17
+        },
+        "../node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/esm/toConsumableArray.js": {
+          "size": 52
+        },
+        "../node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/esm/arrayWithoutHoles.js": {
+          "size": 54
+        },
+        "../node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/esm/iterableToArray.js": {
+          "size": 94
+        },
+        "../node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/esm/nonIterableSpread.js": {
+          "size": 167
+        },
+        "../node_modules/process/browser.js": {
+          "size": 1663
+        },
+        "../node_modules/@babel/runtime/helpers/unsupportedIterableToArray.js": {
+          "size": 361
+        },
+        "../node_modules/@babel/runtime/helpers/arrayLikeToArray.js": {
+          "size": 168
+        },
+        "../node_modules/react-modal/lib/helpers/tabbable.js": {
+          "size": 809
+        },
+        "../node_modules/react-modal/lib/helpers/ariaAppHider.js": {
+          "size": 1754
+        },
+        "../node_modules/react-modal/lib/helpers/portalOpenInstances.js": {
+          "size": 863
+        },
+        "../node_modules/shallowequal/index.js": {
+          "size": 423
+        },
+        "../node_modules/react-redux/node_modules/react-is/index.js": {
+          "size": 17
+        },
+        "../node_modules/react/cjs/react.production.min.js": {
+          "size": 5942
+        },
+        "../node_modules/react-dom/cjs/react-dom.production.min.js": {
+          "size": 118661
+        },
+        "../node_modules/scheduler/index.js": {
+          "size": 17
+        },
+        "../node_modules/scheduler/cjs/scheduler.production.min.js": {
+          "size": 4378
+        },
+        "../node_modules/react-is/cjs/react-is.production.min.js": {
+          "size": 1918
+        },
+        "../node_modules/hoist-non-react-statics/node_modules/react-is/index.js": {
+          "size": 17
+        },
+        "../node_modules/hoist-non-react-statics/node_modules/react-is/cjs/react-is.production.min.js": {
+          "size": 2117
+        },
+        "../node_modules/@fortawesome/react-fontawesome/index.es.js": {
+          "size": 5229
+        },
+        "../node_modules/timers-browserify/main.js": {
+          "size": 1071
+        },
+        "../node_modules/setimmediate/setImmediate.js": {
+          "size": 1684
+        },
+        "../node_modules/prop-types/factoryWithThrowingShims.js": {
+          "size": 622
+        },
+        "../node_modules/prop-types/lib/ReactPropTypesSecret.js": {
+          "size": 58
+        },
+        "../node_modules/@fortawesome/free-solid-svg-icons/index.es.js": {
+          "size": 698728
+        },
+        "../node_modules/@babel/runtime/helpers/objectWithoutProperties.js": {
+          "size": 315
+        },
+        "../node_modules/@babel/runtime/helpers/objectWithoutPropertiesLoose.js": {
+          "size": 196
+        },
+        "../node_modules/@babel/runtime/helpers/extends.js": {
+          "size": 335
+        },
+        "../node_modules/@babel/runtime/helpers/slicedToArray.js": {
+          "size": 147
+        },
+        "../node_modules/@babel/runtime/helpers/arrayWithHoles.js": {
+          "size": 105
+        },
+        "../node_modules/@babel/runtime/helpers/iterableToArrayLimit.js": {
+          "size": 375
+        },
+        "../node_modules/@babel/runtime/helpers/nonIterableRest.js": {
+          "size": 236
+        },
+        "../node_modules/@babel/runtime/helpers/toConsumableArray.js": {
+          "size": 141
+        },
+        "../node_modules/@babel/runtime/helpers/arrayWithoutHoles.js": {
+          "size": 120
+        },
+        "../node_modules/@babel/runtime/helpers/iterableToArray.js": {
+          "size": 177
+        },
+        "../node_modules/@babel/runtime/helpers/nonIterableSpread.js": {
+          "size": 231
+        },
+        "../node_modules/@babel/runtime/helpers/defineProperty.js": {
+          "size": 182
+        },
+        "../node_modules/@babel/runtime/helpers/assertThisInitialized.js": {
+          "size": 185
+        },
+        "../node_modules/@babel/runtime/helpers/inheritsLoose.js": {
+          "size": 162
+        },
+        "../node_modules/@babel/runtime/helpers/setPrototypeOf.js": {
+          "size": 220
+        },
+        "../node_modules/@babel/runtime/helpers/taggedTemplateLiteral.js": {
+          "size": 176
+        },
+        "../node_modules/react-modal/lib/index.js": {
+          "size": 140
+        },
+        "../node_modules/react-modal/lib/components/Modal.js": {
+          "size": 5767
+        },
+        "../node_modules/react-modal/lib/components/ModalPortal.js": {
+          "size": 7750
+        },
+        "../node_modules/react-modal/lib/helpers/focusManager.js": {
+          "size": 1326
+        },
+        "../node_modules/react-modal/lib/helpers/scopeTab.js": {
+          "size": 744
+        },
+        "../node_modules/warning/warning.js": {
+          "size": 32
+        },
+        "../node_modules/react-modal/lib/helpers/classList.js": {
+          "size": 931
+        },
+        "../node_modules/react-modal/lib/helpers/bodyTrap.js": {
+          "size": 1061
+        },
+        "../node_modules/react-lifecycles-compat/react-lifecycles-compat.es.js": {
+          "size": 2395
+        },
+        "../node_modules/react-animate-height/lib/AnimateHeight.js": {
+          "size": 7437
+        },
+        "../node_modules/classnames/index.js": {
+          "size": 518
+        },
+        "../node_modules/react/cjs/react-jsx-runtime.production.min.js": {
+          "size": 637
+        },
+        "../node_modules/react-redux/node_modules/react-is/cjs/react-is.production.min.js": {
+          "size": 2117
+        },
+        "../node_modules/tslib/tslib.es6.js": {
+          "size": 1401
+        },
+        "../node_modules/framer-motion/dist/es/context/MotionConfigContext.js": {
+          "size": 449
+        },
+        "../node_modules/framer-motion/dist/es/context/PresenceContext.js": {
+          "size": 36
+        },
+        "../node_modules/framer-motion/dist/es/utils/use-constant.js": {
+          "size": 94
+        },
+        "../node_modules/framer-motion/dist/es/components/AnimatePresence/use-presence.js": {
+          "size": 400
+        },
+        "../node_modules/framer-motion/dist/es/components/AnimateSharedLayout/types.js": {
+          "size": 167
+        },
+        "../node_modules/framer-motion/dist/es/context/LayoutGroupContext.js": {
+          "size": 33
+        },
+        "../node_modules/framer-motion/dist/es/components/AnimateSharedLayout/utils/batcher.js": {
+          "size": 531
+        },
+        "../node_modules/framer-motion/dist/es/context/SharedLayoutContext.js": {
+          "size": 102
+        },
+        "../node_modules/framer-motion/dist/es/context/MotionContext/index.js": {
+          "size": 92
+        },
+        "../node_modules/framer-motion/dist/es/utils/use-isomorphic-effect.js": {
+          "size": 64
+        },
+        "../node_modules/framer-motion/dist/es/motion/utils/use-visual-element.js": {
+          "size": 646
+        },
+        "../node_modules/framer-motion/dist/es/motion/features/layout/use-snapshot-on-unmount.js": {
+          "size": 143
+        },
+        "../node_modules/framer-motion/dist/es/utils/is-ref-object.js": {
+          "size": 91
+        },
+        "../node_modules/framer-motion/dist/es/render/utils/variants.js": {
+          "size": 802
+        },
+        "../node_modules/framer-motion/dist/es/context/MotionContext/create.js": {
+          "size": 211
+        },
+        "../node_modules/framer-motion/dist/es/context/MotionContext/utils.js": {
+          "size": 137
+        },
+        "../node_modules/framer-motion/dist/es/motion/index.js": {
+          "size": 417
+        },
+        "../node_modules/framer-motion/dist/es/motion/features/use-features.js": {
+          "size": 245
+        },
+        "../node_modules/framer-motion/dist/es/motion/utils/use-motion-ref.js": {
+          "size": 201
+        },
+        "../node_modules/framer-motion/dist/es/events/use-dom-event.js": {
+          "size": 208
+        },
+        "../node_modules/popmotion/dist/es/utils/progress.js": {
+          "size": 56
+        },
+        "../node_modules/framer-motion/dist/es/gestures/utils/event-type.js": {
+          "size": 164
+        },
+        "../node_modules/framer-motion/dist/es/events/event-info.js": {
+          "size": 480
+        },
+        "../node_modules/framer-motion/dist/es/events/utils.js": {
+          "size": 124
+        },
+        "../node_modules/framer-motion/dist/es/events/use-pointer-event.js": {
+          "size": 471
+        },
+        "../node_modules/popmotion/dist/es/utils/is-point.js": {
+          "size": 72
+        },
+        "../node_modules/popmotion/dist/es/utils/is-point-3d.js": {
+          "size": 52
+        },
+        "../node_modules/popmotion/dist/es/utils/inc.js": {
+          "size": 42
+        },
+        "../node_modules/popmotion/dist/es/utils/distance.js": {
+          "size": 226
+        },
+        "../node_modules/popmotion/dist/es/utils/pipe.js": {
+          "size": 150
+        },
+        "../node_modules/framesync/dist/es/on-next-frame.js": {
+          "size": 262
+        },
+        "../node_modules/framesync/dist/es/index.js": {
+          "size": 638
+        },
+        "../node_modules/framesync/dist/es/create-render-step.js": {
+          "size": 440
+        },
+        "../node_modules/framer-motion/dist/es/utils/time-conversion.js": {
+          "size": 29
+        },
+        "../node_modules/framer-motion/dist/es/gestures/PanSession.js": {
+          "size": 1980
+        },
+        "../node_modules/framer-motion/dist/es/gestures/drag/utils/lock.js": {
+          "size": 320
+        },
+        "../node_modules/framer-motion/dist/es/utils/noop.js": {
+          "size": 24
+        },
+        "../node_modules/framer-motion/dist/es/utils/geometry/index.js": {
+          "size": 746
+        },
+        "../node_modules/framer-motion/dist/es/utils/each-axis.js": {
+          "size": 37
+        },
+        "../node_modules/popmotion/dist/es/utils/clamp.js": {
+          "size": 57
+        },
+        "../node_modules/popmotion/dist/es/utils/mix.js": {
+          "size": 37
+        },
+        "../node_modules/framer-motion/dist/es/utils/geometry/delta-calc.js": {
+          "size": 581
+        },
+        "../node_modules/framer-motion/dist/es/gestures/drag/utils/constraints.js": {
+          "size": 994
+        },
+        "../node_modules/framer-motion/dist/es/render/dom/projection/measure.js": {
+          "size": 58
+        },
+        "../node_modules/popmotion/dist/es/animations/utils/find-spring.js": {
+          "size": 757
+        },
+        "../node_modules/popmotion/dist/es/animations/generators/spring.js": {
+          "size": 1540
+        },
+        "../node_modules/style-value-types/dist/es/utils.js": {
+          "size": 406
+        },
+        "../node_modules/style-value-types/dist/es/numbers/index.js": {
+          "size": 164
+        },
+        "../node_modules/style-value-types/dist/es/color/utils.js": {
+          "size": 342
+        },
+        "../node_modules/style-value-types/dist/es/color/rgba.js": {
+          "size": 317
+        },
+        "../node_modules/style-value-types/dist/es/color/hex.js": {
+          "size": 349
+        },
+        "../node_modules/style-value-types/dist/es/numbers/units.js": {
+          "size": 317
+        },
+        "../node_modules/style-value-types/dist/es/color/hsla.js": {
+          "size": 265
+        },
+        "../node_modules/popmotion/dist/es/utils/mix-color.js": {
+          "size": 504
+        },
+        "../node_modules/style-value-types/dist/es/color/index.js": {
+          "size": 243
+        },
+        "../node_modules/style-value-types/dist/es/complex/index.js": {
+          "size": 837
+        },
+        "../node_modules/popmotion/dist/es/utils/mix-complex.js": {
+          "size": 750
+        },
+        "../node_modules/popmotion/dist/es/utils/interpolate.js": {
+          "size": 890
+        },
+        "../node_modules/popmotion/dist/es/easing/utils.js": {
+          "size": 328
+        },
+        "../node_modules/popmotion/dist/es/easing/index.js": {
+          "size": 444
+        },
+        "../node_modules/popmotion/dist/es/animations/generators/keyframes.js": {
+          "size": 590
+        },
+        "../node_modules/popmotion/dist/es/animations/utils/detect-animation-from-options.js": {
+          "size": 332
+        },
+        "../node_modules/popmotion/dist/es/animations/generators/decay.js": {
+          "size": 379
+        },
+        "../node_modules/popmotion/dist/es/animations/utils/elapsed.js": {
+          "size": 177
+        },
+        "../node_modules/popmotion/dist/es/animations/index.js": {
+          "size": 1184
+        },
+        "../node_modules/popmotion/dist/es/utils/velocity-per-second.js": {
+          "size": 38
+        },
+        "../node_modules/popmotion/dist/es/easing/cubic-bezier.js": {
+          "size": 757
+        },
+        "../node_modules/framer-motion/dist/es/animation/utils/easing.js": {
+          "size": 356
+        },
+        "../node_modules/framer-motion/dist/es/animation/utils/is-animatable.js": {
+          "size": 141
+        },
+        "../node_modules/framer-motion/dist/es/animation/utils/is-keyframes-target.js": {
+          "size": 40
+        },
+        "../node_modules/framer-motion/dist/es/animation/utils/default-transitions.js": {
+          "size": 542
+        },
+        "../node_modules/style-value-types/dist/es/complex/filter.js": {
+          "size": 390
+        },
+        "../node_modules/framer-motion/dist/es/render/dom/utils/value-types.js": {
+          "size": 1429
+        },
+        "../node_modules/framer-motion/dist/es/animation/utils/transitions.js": {
+          "size": 2002
+        },
+        "../node_modules/framer-motion/dist/es/render/utils/types.js": {
+          "size": 141
+        },
+        "../node_modules/popmotion/dist/es/animations/inertia.js": {
+          "size": 1098
+        },
+        "../node_modules/framer-motion/dist/es/gestures/drag/VisualElementDragControls.js": {
+          "size": 6883
+        },
+        "../node_modules/framer-motion/dist/es/motion/utils/make-renderless-component.js": {
+          "size": 57
+        },
+        "../node_modules/framer-motion/dist/es/motion/features/drag.js": {
+          "size": 188
+        },
+        "../node_modules/framer-motion/dist/es/gestures/drag/use-drag.js": {
+          "size": 298
+        },
+        "../node_modules/framer-motion/dist/es/utils/use-unmount-effect.js": {
+          "size": 90
+        },
+        "../node_modules/framer-motion/dist/es/gestures/use-pan-gesture.js": {
+          "size": 464
+        },
+        "../node_modules/framer-motion/dist/es/gestures/utils/is-node-or-child.js": {
+          "size": 65
+        },
+        "../node_modules/framer-motion/dist/es/gestures/use-tap-gesture.js": {
+          "size": 734
+        },
+        "../node_modules/framer-motion/dist/es/gestures/use-hover-gesture.js": {
+          "size": 326
+        },
+        "../node_modules/framer-motion/dist/es/gestures/use-gestures.js": {
+          "size": 45
+        },
+        "../node_modules/framer-motion/dist/es/gestures/use-focus-gesture.js": {
+          "size": 244
+        },
+        "../node_modules/framer-motion/dist/es/gestures/types.js": {
+          "size": 161
+        },
+        "../node_modules/framer-motion/dist/es/motion/features/gestures.js": {
+          "size": 212
+        },
+        "../node_modules/framer-motion/dist/es/motion/features/exit.js": {
+          "size": 439
+        },
+        "../node_modules/framer-motion/dist/es/motion/utils/should-inherit-variant.js": {
+          "size": 91
+        },
+        "../node_modules/framer-motion/dist/es/utils/subscription-manager.js": {
+          "size": 474
+        },
+        "../node_modules/framer-motion/dist/es/utils/array.js": {
+          "size": 89
+        },
+        "../node_modules/framer-motion/dist/es/value/index.js": {
+          "size": 2116
+        },
+        "../node_modules/framer-motion/dist/es/render/utils/setters.js": {
+          "size": 1165
+        },
+        "../node_modules/framer-motion/dist/es/utils/resolve-value.js": {
+          "size": 86
+        },
+        "../node_modules/framer-motion/dist/es/utils/is-numerical-string.js": {
+          "size": 22
+        },
+        "../node_modules/framer-motion/dist/es/render/utils/animation.js": {
+          "size": 2040
+        },
+        "../node_modules/framer-motion/dist/es/animation/animation-controls.js": {
+          "size": 625
+        },
+        "../node_modules/framer-motion/dist/es/utils/shallow-compare.js": {
+          "size": 140
+        },
+        "../node_modules/framer-motion/dist/es/render/utils/animation-state.js": {
+          "size": 2349
+        },
+        "../node_modules/framer-motion/dist/es/motion/features/animation.js": {
+          "size": 384
+        },
+        "../node_modules/framer-motion/dist/es/motion/features/layout/Animate.js": {
+          "size": 2742
+        },
+        "../node_modules/framer-motion/dist/es/motion/features/layout/utils.js": {
+          "size": 66
+        },
+        "../node_modules/framer-motion/dist/es/render/dom/utils/css-variables-conversion.js": {
+          "size": 718
+        },
+        "../node_modules/framer-motion/dist/es/render/dom/projection/scale-correction.js": {
+          "size": 969
+        },
+        "../node_modules/framer-motion/dist/es/motion/utils/valid-prop.js": {
+          "size": 607
+        },
+        "../node_modules/framer-motion/dist/es/value/utils/is-motion-value.js": {
+          "size": 43
+        },
+        "../node_modules/framer-motion/dist/es/render/utils/state.js": {
+          "size": 187
+        },
+        "../node_modules/framer-motion/dist/es/render/html/utils/transform.js": {
+          "size": 359
+        },
+        "../node_modules/framer-motion/dist/es/render/html/utils/build-transform.js": {
+          "size": 948
+        },
+        "../node_modules/framer-motion/dist/es/utils/geometry/delta-apply.js": {
+          "size": 1146
+        },
+        "../node_modules/framer-motion/dist/es/render/utils/lifecycles.js": {
+          "size": 669
+        },
+        "../node_modules/framer-motion/dist/es/render/utils/projection.js": {
+          "size": 116
+        },
+        "../node_modules/framer-motion/dist/es/render/index.js": {
+          "size": 6495
+        },
+        "../node_modules/framer-motion/dist/es/render/utils/motion-values.js": {
+          "size": 318
+        },
+        "../node_modules/framer-motion/dist/es/value/utils/resolve-motion-value.js": {
+          "size": 70
+        },
+        "../node_modules/framer-motion/dist/es/motion/features/layout/Measure.js": {
+          "size": 889
+        },
+        "../node_modules/framer-motion/dist/es/render/svg/supported-elements.js": {
+          "size": 207
+        },
+        "../node_modules/framer-motion/dist/es/render/dom/utils/is-svg-component.js": {
+          "size": 110
+        },
+        "../node_modules/framer-motion/dist/es/motion/utils/is-forced-motion-value.js": {
+          "size": 91
+        },
+        "../node_modules/framer-motion/dist/es/render/dom/utils/is-css-variable.js": {
+          "size": 41
+        },
+        "../node_modules/framer-motion/dist/es/render/html/utils/build-styles.js": {
+          "size": 673
+        },
+        "../node_modules/framer-motion/dist/es/render/html/utils/create-render-state.js": {
+          "size": 230
+        },
+        "../node_modules/framer-motion/dist/es/render/html/use-props.js": {
+          "size": 594
+        },
+        "../node_modules/framer-motion/dist/es/render/dom/utils/filter-props.js": {
+          "size": 221
+        },
+        "../node_modules/framer-motion/dist/es/render/svg/utils/transform-origin.js": {
+          "size": 131
+        },
+        "../node_modules/framer-motion/dist/es/render/svg/utils/path.js": {
+          "size": 314
+        },
+        "../node_modules/framer-motion/dist/es/render/svg/utils/build-attrs.js": {
+          "size": 576
+        },
+        "../node_modules/framer-motion/dist/es/render/svg/utils/create-render-state.js": {
+          "size": 45
+        },
+        "../node_modules/framer-motion/dist/es/render/svg/use-props.js": {
+          "size": 264
+        },
+        "../node_modules/framer-motion/dist/es/render/dom/use-render.js": {
+          "size": 196
+        },
+        "../node_modules/framer-motion/dist/es/render/html/utils/scrape-motion-values.js": {
+          "size": 91
+        },
+        "../node_modules/framer-motion/dist/es/render/svg/utils/scrape-motion-values.js": {
+          "size": 114
+        },
+        "../node_modules/framer-motion/dist/es/render/dom/utils/unit-conversion.js": {
+          "size": 2582
+        },
+        "../node_modules/framer-motion/dist/es/render/dom/utils/parse-dom-variant.js": {
+          "size": 84
+        },
+        "../node_modules/framer-motion/dist/es/render/html/visual-element.js": {
+          "size": 1326
+        },
+        "../node_modules/framer-motion/dist/es/render/dom/utils/camel-to-dash.js": {
+          "size": 80
+        },
+        "../node_modules/framer-motion/dist/es/render/svg/utils/camel-case-attrs.js": {
+          "size": 280
+        },
+        "../node_modules/framer-motion/dist/es/render/svg/visual-element.js": {
+          "size": 417
+        },
+        "../node_modules/framer-motion/dist/es/motion/utils/use-visual-state.js": {
+          "size": 853
+        },
+        "../node_modules/framer-motion/dist/es/render/svg/config-motion.js": {
+          "size": 499
+        },
+        "../node_modules/framer-motion/dist/es/render/html/config-motion.js": {
+          "size": 162
+        },
+        "../node_modules/framer-motion/dist/es/render/dom/utils/create-config.js": {
+          "size": 93
+        },
+        "../node_modules/framer-motion/dist/es/render/dom/motion-proxy.js": {
+          "size": 267
+        },
+        "../node_modules/framer-motion/dist/es/render/dom/motion.js": {
+          "size": 74
+        },
+        "../node_modules/framer-motion/dist/es/render/dom/motion-minimal.js": {
+          "size": 16
+        },
+        "../node_modules/framer-motion/dist/es/components/AnimatePresence/PresenceChild.js": {
+          "size": 709
+        },
+        "../node_modules/framer-motion/dist/es/components/AnimatePresence/index.js": {
+          "size": 1501
+        },
+        "../node_modules/framer-motion/dist/es/utils/use-force-update.js": {
+          "size": 186
+        },
+        "../node_modules/framer-motion/dist/es/animation/animate.js": {
+          "size": 113
+        },
+        "../node_modules/framer-motion/dist/es/components/AnimateSharedLayout/utils/crossfader.js": {
+          "size": 1815
+        },
+        "../node_modules/framer-motion/dist/es/components/AnimateSharedLayout/utils/stack.js": {
+          "size": 1432
+        },
+        "../node_modules/framer-motion/dist/es/components/AnimateSharedLayout/index.js": {
+          "size": 2493
+        },
+        "../node_modules/framer-motion/dist/es/components/AnimateSharedLayout/utils/rotate.js": {
+          "size": 247
+        },
+        "../node_modules/framer-motion/dist/es/value/use-motion-value.js": {
+          "size": 192
+        },
+        "../node_modules/framer-motion/dist/es/value/use-on-change.js": {
+          "size": 247
+        },
+        "../node_modules/framer-motion/dist/es/value/use-combine-values.js": {
+          "size": 120
+        },
+        "../node_modules/framer-motion/dist/es/value/use-motion-template.js": {
+          "size": 183
+        },
+        "../node_modules/framer-motion/dist/es/utils/transform.js": {
+          "size": 281
+        },
+        "../node_modules/framer-motion/dist/es/value/use-transform.js": {
+          "size": 290
+        },
+        "../node_modules/framer-motion/dist/es/value/use-spring.js": {
+          "size": 396
+        },
+        "../node_modules/framer-motion/dist/es/value/use-velocity.js": {
+          "size": 153
+        },
+        "../node_modules/framer-motion/dist/es/value/scroll/utils.js": {
+          "size": 329
+        },
+        "../node_modules/framer-motion/dist/es/value/scroll/use-element-scroll.js": {
+          "size": 341
+        },
+        "../node_modules/framer-motion/dist/es/value/scroll/use-viewport-scroll.js": {
+          "size": 388
+        },
+        "../node_modules/framer-motion/dist/es/utils/use-reduced-motion.js": {
+          "size": 301
+        },
+        "../node_modules/framer-motion/dist/es/animation/use-animation.js": {
+          "size": 67
+        },
+        "../node_modules/popmotion/dist/es/utils/wrap.js": {
+          "size": 56
+        },
+        "../node_modules/framer-motion/dist/es/utils/use-cycle.js": {
+          "size": 250
+        },
+        "../node_modules/framer-motion/dist/es/gestures/drag/use-drag-controls.js": {
+          "size": 509
+        },
+        "../node_modules/framer-motion/dist/es/animation/use-animated-state.js": {
+          "size": 898
+        },
+        "../node_modules/framer-motion/dist/es/value/use-inverted-scale.js": {
+          "size": 215
+        },
+        "../node_modules/@babel/runtime/helpers/esm/classCallCheck.js": {
+          "size": 94
+        },
+        "../node_modules/@babel/runtime/helpers/esm/createClass.js": {
+          "size": 223
+        },
+        "../node_modules/@babel/runtime/helpers/esm/inherits.js": {
+          "size": 239
+        },
+        "../node_modules/@babel/runtime/helpers/esm/possibleConstructorReturn.js": {
+          "size": 84
+        },
+        "../node_modules/memoize-one/dist/memoize-one.esm.js": {
+          "size": 405
+        },
+        "../node_modules/@emotion/sheet/dist/sheet.browser.esm.js": {
+          "size": 1094
+        },
+        "../node_modules/@emotion/cache/dist/cache.browser.esm.js": {
+          "size": 1023
+        },
+        "../node_modules/@emotion/utils/dist/utils.browser.esm.js": {
+          "size": 316
+        },
+        "../node_modules/@emotion/hash/dist/hash.browser.esm.js": {
+          "size": 556
+        },
+        "../node_modules/@emotion/serialize/dist/serialize.browser.esm.js": {
+          "size": 1837
+        },
+        "../node_modules/@emotion/core/dist/emotion-element-57a3a7a3.browser.esm.js": {
+          "size": 981
+        },
+        "../node_modules/@emotion/css/dist/css.browser.esm.js": {
+          "size": 102
+        },
+        "../node_modules/@emotion/core/dist/core.browser.esm.js": {
+          "size": 1162
+        },
+        "../node_modules/@babel/runtime/helpers/esm/objectWithoutProperties.js": {
+          "size": 253
+        },
+        "../node_modules/@babel/runtime/helpers/esm/typeof.js": {
+          "size": 234
+        },
+        "../node_modules/react-select/dist/index-75b02bac.browser.esm.js": {
+          "size": 21142
+        },
+        "../node_modules/@babel/runtime/helpers/esm/taggedTemplateLiteral.js": {
+          "size": 98
+        },
+        "../node_modules/@babel/runtime/helpers/esm/arrayLikeToArray.js": {
+          "size": 107
+        },
+        "../node_modules/@babel/runtime/helpers/esm/unsupportedIterableToArray.js": {
+          "size": 290
+        },
+        "../node_modules/@babel/runtime/helpers/esm/slicedToArray.js": {
+          "size": 48
+        },
+        "../node_modules/@babel/runtime/helpers/esm/arrayWithHoles.js": {
+          "size": 41
+        },
+        "../node_modules/@babel/runtime/helpers/esm/iterableToArrayLimit.js": {
+          "size": 311
+        },
+        "../node_modules/@babel/runtime/helpers/esm/nonIterableRest.js": {
+          "size": 172
+        },
+        "../node_modules/@babel/runtime/helpers/esm/toConsumableArray.js": {
+          "size": 42
+        },
+        "../node_modules/@babel/runtime/helpers/esm/arrayWithoutHoles.js": {
+          "size": 45
+        },
+        "../node_modules/@babel/runtime/helpers/esm/iterableToArray.js": {
+          "size": 113
+        },
+        "../node_modules/@babel/runtime/helpers/esm/nonIterableSpread.js": {
+          "size": 167
+        },
+        "../node_modules/react-select/dist/Select-e1cf49ae.browser.esm.js": {
+          "size": 44793
+        },
+        "../node_modules/react-select/dist/stateManager-2f2b6f5b.browser.esm.js": {
+          "size": 2227
+        },
+        "../node_modules/react-select/dist/react-select.browser.esm.js": {
+          "size": 825
+        },
+        "../node_modules/styled-tools/dist/es/prop.js": {
+          "size": 290
+        },
+        "../node_modules/styled-tools/dist/es/ifProp.js": {
+          "size": 821
+        },
+        "../node_modules/styled-tools/dist/es/ifNotProp.js": {
+          "size": 35
+        },
+        "../node_modules/styled-tools/dist/es/palette.js": {
+          "size": 351
+        },
+        "../node_modules/styled-tools/dist/es/switchProp.js": {
+          "size": 191
+        },
+        "../node_modules/styled-tools/dist/es/theme.js": {
+          "size": 60
+        },
+        "../node_modules/styled-tools/dist/es/withProp.js": {
+          "size": 609
+        },
+        "../node_modules/@babel/runtime/helpers/esm/isNativeReflectConstruct.js": {
+          "size": 257
+        },
+        "../node_modules/@babel/runtime/helpers/esm/construct.js": {
+          "size": 195
+        },
+        "../node_modules/@babel/runtime/helpers/esm/wrapNativeSuper.js": {
+          "size": 470
+        },
+        "../node_modules/@babel/runtime/helpers/esm/isNativeFunction.js": {
+          "size": 64
+        },
+        "../node_modules/@babel/runtime/helpers/esm/taggedTemplateLiteralLoose.js": {
+          "size": 51
+        },
+        "../node_modules/polished/dist/polished.esm.js": {
+          "size": 31651
+        },
+        "../node_modules/react-portal/es/utils.js": {
+          "size": 83
+        },
+        "../node_modules/react-portal/es/Portal.js": {
+          "size": 1418
+        },
+        "../node_modules/react-portal/es/LegacyPortal.js": {
+          "size": 1795
+        },
+        "../node_modules/react-portal/es/PortalCompat.js": {
+          "size": 27
+        },
+        "../node_modules/react-portal/es/PortalWithState.js": {
+          "size": 2852
+        },
+        "../../src/helpers.ts": {
+          "size": 10507
+        },
+        "../../src/index.ts": {
+          "size": 2194
+        },
+        "../../src/index.tsx": {
+          "size": 4515
+        },
+        "[sourceMappingURL]": {
+          "size": 44
+        },
+        "[unmapped]": {
+          "size": 177
+        },
+        "[EOLs]": {
+          "size": 2
+        }
+      }
+    },
+    {
+      "bundleName": "build/static/js/3.f9b87a3d.chunk.js",
+      "totalBytes": 4388,
+      "mappedBytes": 4236,
+      "unmappedBytes": 107,
+      "eolBytes": 1,
+      "sourceMapCommentBytes": 44,
+      "files": {
+        "../node_modules/web-vitals/dist/web-vitals.js": {
+          "size": 4236
+        },
+        "[sourceMappingURL]": {
+          "size": 44
+        },
+        "[unmapped]": {
+          "size": 107
+        },
+        "[EOLs]": {
+          "size": 1
+        }
+      }
+    },
+    {
+      "bundleName": "build/static/js/main.3f61ea8d.chunk.js",
+      "totalBytes": 6484,
+      "mappedBytes": 6179,
+      "unmappedBytes": 257,
+      "eolBytes": 1,
+      "sourceMapCommentBytes": 47,
+      "files": {
+        "components/EntryModal/EntryModal.tsx": {
+          "size": 2133
+        },
+        "components/EntryModal/index.ts": {
+          "size": 2
+        },
+        "[no source]": {
+          "size": 125
+        },
+        "slices/todos.ts": {
+          "size": 479
+        },
+        "components/NewEntry/index.ts": {
+          "size": 2
+        },
+        "components/NewEntry/NewEntry.tsx": {
+          "size": 435
+        },
+        "components/common/CenteredContainer.tsx": {
+          "size": 219
+        },
+        "components/NoEntriesContainer/index.ts": {
+          "size": 2
+        },
+        "components/NoEntriesContainer/NoEntriesContainer.tsx": {
+          "size": 291
+        },
+        "components/Header/Header.tsx": {
+          "size": 236
+        },
+        "components/Header/index.ts": {
+          "size": 2
+        },
+        "components/EntryItem/EntryItem.tsx": {
+          "size": 752
+        },
+        "components/EntryItem/index.ts": {
+          "size": 2
+        },
+        "components/Dashboard/index.ts": {
+          "size": 2
+        },
+        "components/Dashboard/Dashboard.tsx": {
+          "size": 886
+        },
+        "App.tsx": {
+          "size": 173
+        },
+        "reportWebVitals.ts": {
+          "size": 176
+        },
+        "store.ts": {
+          "size": 35
+        },
+        "index.tsx": {
+          "size": 227
+        },
+        "[sourceMappingURL]": {
+          "size": 47
+        },
+        "[unmapped]": {
+          "size": 257
+        },
+        "[EOLs]": {
+          "size": 1
+        }
+      }
+    },
+    {
+      "bundleName": "build/static/js/runtime-main.be66e59d.js",
+      "totalBytes": 2364,
+      "mappedBytes": 2301,
+      "unmappedBytes": 13,
+      "eolBytes": 1,
+      "sourceMapCommentBytes": 49,
+      "files": {
+        "../webpack/bootstrap": {
+          "size": 2296
+        },
+        "[no source]": {
+          "size": 5
+        },
+        "[sourceMappingURL]": {
+          "size": 49
+        },
+        "[unmapped]": {
+          "size": 13
+        },
+        "[EOLs]": {
+          "size": 1
+        }
+      }
+    }
+  ]
+}
