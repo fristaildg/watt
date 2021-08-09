@@ -12,9 +12,11 @@
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
     "@types/jest": "^26.0.15",
+    "@types/lodash": "^4.14.172",
     "@types/node": "^12.0.0",
     "@types/react": "^17.0.0",
     "@types/react-dom": "^17.0.0",
+    "lodash": "^4.17.21",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-redux": "^7.2.2",
@@ -34,9 +36,11 @@
     "eject": "react-scripts eject",
     "size": "npm run build && size-limit"
   },
-  "size-limit": [{
-    "path": "build/static/js/*.chunk.js"
-  }],
+  "size-limit": [
+    {
+      "path": "build/static/js/*.chunk.js"
+    }
+  ],
   "eslintConfig": {
     "extends": [
       "react-app",

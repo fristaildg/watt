@@ -8,6 +8,7 @@ import EntryModal from '../EntryModal'
 import EntryItem from '../EntryItem'
 import { useDispatch } from 'react-redux'
 import { updateTodo } from '../../slices/todos'
+import _ from 'lodash';
 
 const Dashboard = () => {
   const { todos } = useSelector((state: any) => state)
