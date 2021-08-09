@@ -32,7 +32,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "size": "npm run build && size-limit"
+    "size-build": "npm run build && size-limit"
   },
   "size-limit": [{
     "path": "build/static/js/*.*.chunk.js"
