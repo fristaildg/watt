@@ -38,7 +38,7 @@
   },
   "size-limit": [
     {
-      "path": "build/static/js/*.chunk.js"
+      "path": "build/static/**/*.{js, css}"
     }
   ],
   "eslintConfig": {
