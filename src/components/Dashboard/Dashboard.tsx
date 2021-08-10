@@ -9,6 +9,7 @@ import EntryItem from '../EntryItem'
 import { useDispatch } from 'react-redux'
 import { updateTodo } from '../../slices/todos'
 import _ from 'lodash';
+import { Button } from '@material-ui/core'
 
 const Dashboard = () => {
   const { todos } = useSelector((state: any) => state)
@@ -38,37 +39,16 @@ const Dashboard = () => {
             const itemNumber = index + 1
 
             return (
-              <EntryItem todo={todo} number={itemNumber} onEditClick={showEditModal} onDeleteClick={showDeleteAlert} />
+              <>
+                <EntryItem todo={todo} number={itemNumber} onEditClick={showEditModal} onDeleteClick={showDeleteAlert} />
+                <Button>Click something</Button>
+              </>
             )
           })}
         </Accordion>
       </CenteredContainer>
       <EntryModal modalProps={modalProps} values={todoValues} onSubmitValues={handleSubmitValues} />
       <Alert {...editAlertProps} message='The task was updated right nowwwwwwwawfaf by a person' intent='success' />
-      <Alert {...deleteAlertProps} message='The task was deleted' intent='info' />
-      <Alert {...editAlertProps} message='The task was updated right nowwwwwwwawfaf by a person' intent='success' />
-      <Alert {...deleteAlertProps} message='The task was deleted' intent='info' /><Alert {...editAlertProps} message='The task was updated right nowwwwwwwawfaf by a person' intent='success' />
-      <Alert {...deleteAlertProps} message='The task was deleted' intent='info' /><Alert {...editAlertProps} message='The task was updated right nowwwwwwwawfaf by a person' intent='success' />
-      <Alert {...deleteAlertProps} message='The task was deleted' intent='info' /><Alert {...editAlertProps} message='The task was updated right nowwwwwwwawfaf by a person' intent='success' />
-      <Alert {...deleteAlertProps} message='The task was deleted' intent='info' /><Alert {...editAlertProps} message='The task was updated right nowwwwwwwawfaf by a person' intent='success' />
-      <Alert {...deleteAlertProps} message='The task was deleted' intent='info' /><Alert {...editAlertProps} message='The task was updated right nowwwwwwwawfaf by a person' intent='success' />
-      <Alert {...deleteAlertProps} message='The task was deleted' intent='info' /><Alert {...editAlertProps} message='The task was updated right nowwwwwwwawfaf by a person' intent='success' />
-      <Alert {...deleteAlertProps} message='The task was deleted' intent='info' /><Alert {...editAlertProps} message='The task was updated right nowwwwwwwawfaf by a person' intent='success' />
-      <Alert {...deleteAlertProps} message='The task was deleted' intent='info' /><Alert {...editAlertProps} message='The task was updated right nowwwwwwwawfaf by a person' intent='success' />
-      <Alert {...deleteAlertProps} message='The task was deleted' intent='info' /><Alert {...editAlertProps} message='The task was updated right nowwwwwwwawfaf by a person' intent='success' />
-      <Alert {...deleteAlertProps} message='The task was deleted' intent='info' /><Alert {...editAlertProps} message='The task was updated right nowwwwwwwawfaf by a person' intent='success' />
-      <Alert {...deleteAlertProps} message='The task was deleted' intent='info' /><Alert {...editAlertProps} message='The task was updated right nowwwwwwwawfaf by a person' intent='success' />
-      <Alert {...deleteAlertProps} message='The task was deleted' intent='info' /><Alert {...editAlertProps} message='The task was updated right nowwwwwwwawfaf by a person' intent='success' />
-      <Alert {...deleteAlertProps} message='The task was deleted' intent='info' /><Alert {...editAlertProps} message='The task was updated right nowwwwwwwawfaf by a person' intent='success' />
-      <Alert {...deleteAlertProps} message='The task was deleted' intent='info' /><Alert {...editAlertProps} message='The task was updated right nowwwwwwwawfaf by a person' intent='success' />
-      <Alert {...deleteAlertProps} message='The task was deleted' intent='info' /><Alert {...editAlertProps} message='The task was updated right nowwwwwwwawfaf by a person' intent='success' />
-      <Alert {...deleteAlertProps} message='The task was deleted' intent='info' /><Alert {...editAlertProps} message='The task was updated right nowwwwwwwawfaf by a person' intent='success' />
-      <Alert {...deleteAlertProps} message='The task was deleted' intent='info' /><Alert {...editAlertProps} message='The task was updated right nowwwwwwwawfaf by a person' intent='success' />
-      <Alert {...deleteAlertProps} message='The task was deleted' intent='info' /><Alert {...editAlertProps} message='The task was updated right nowwwwwwwawfaf by a person' intent='success' />
-      <Alert {...deleteAlertProps} message='The task was deleted' intent='info' /><Alert {...editAlertProps} message='The task was updated right nowwwwwwwawfaf by a person' intent='success' />
-      <Alert {...deleteAlertProps} message='The task was deleted' intent='info' /><Alert {...editAlertProps} message='The task was updated right nowwwwwwwawfaf by a person' intent='success' />
-      <Alert {...deleteAlertProps} message='The task was deleted' intent='info' />
-      <Alert {...deleteAlertProps} message='The task was deleted' intent='info' />
       <Alert {...deleteAlertProps} message='The task was deleted' intent='info' />
     </>
   )
