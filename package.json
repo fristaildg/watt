@@ -32,9 +32,10 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "build-size": "node ./scripts/build-non-split.js",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "size": "npm run build && size-limit"
+    "size": "npm run build-size && size-limit"
   },
   "size-limit": [
     {
@@ -64,6 +65,7 @@
     "@size-limit/file": "^5.0.2",
     "@size-limit/webpack": "^5.0.2",
     "@types/react-redux": "^7.1.16",
+    "rewire": "^5.0.0",
     "size-limit": "^5.0.2"
   }
 }
